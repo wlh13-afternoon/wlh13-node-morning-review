@@ -2,7 +2,10 @@
   "name": "node-morning-review",
   "version": "0.1.0",
   "private": true,
+  "main": "src/server/index.js",
+  "proxy": "http://localhost:5000",
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0"
